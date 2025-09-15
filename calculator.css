@@ -1,0 +1,14 @@
+table{
+    margin: 200px auto;
+    height: 500px;
+    width: 500px;
+    padding: 500px;
+    position: center ;
+
+}
+body{
+    background-image: url(luffy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
