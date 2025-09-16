@@ -7,15 +7,26 @@
     <link rel = "stylesheet" href="calculator.css">
 </head>
 <body>
-    <table border="1" style="margin-left: auto; margin-right: auto; margin-bottom: auto; border: 1px solid black;" >
+    <style>
+button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50px;
+  .one{
+    background-color: crimson;
+    color: black;
+  } 
+}
+</style>
+    <table >
             
         <tr>
             <th colspan="4"><input type="number" step="any" placeholder="enter input"></th>
             
      </tr>
      <tr>
-         <td ><button >AC</button>
-         </td><td ><button >()</button></td>
+         <td ><button class="one">AC</button ></td>
+         <td ><button >()</button></td>
          <td ><button>%</button></td>
          <td ><button>/</button></td>
     </tr>
@@ -40,7 +51,7 @@
     <tr>
         <td ><button>0</button></td>
         <td ><button>.</button></td>
-        <td ><button>clear</button></td>
+        <td  ><button class="one">clear</button></td>
         <td ><button>=</button></td>
     </tr>
         

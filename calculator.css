@@ -1,9 +1,10 @@
 table{
     margin: 200px auto;
-    height: 500px;
-    width: 500px;
-    padding: 500px;
-    position: center ;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(230, 135, 135);
+
+     
 
 }
 body{
@@ -11,4 +12,36 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     
+}
+button{
+    height: 70px;
+    width: 130px;
+    background: 10px;
+    padding: 10px 25px;
+}
+th{
+    height: 100px;
+    
+}
+button{
+    font-size: 50px;
+    color: blueviolet;
+background-color: rgb(226, 139, 183);
+
+}
+input
+{
+    font-size: 45px;
+}
+button:hover{
+
+    color: crimson;
+}
+.one:hover{
+      color: black ;
+      background-color: rgb(226, 139, 183);
+}
+.one{
+    color: red;
+    background-color: blueviolet ;
 }
